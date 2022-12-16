@@ -26,7 +26,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UGs-8u-I29">
-                                <rect key="frame" x="132" y="412" width="150" height="50"/>
+                                <rect key="frame" x="132" y="662" width="150" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="VU9-57-vnr"/>
                                     <constraint firstAttribute="height" constant="50" id="yG4-ZQ-IiQ"/>
@@ -37,13 +37,21 @@
                                     <action selector="myButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PAO-HJ-I3h"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New label for branch &quot;new_label&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2EE-ni-Trc">
+                                <rect key="frame" x="80.5" y="298" width="253" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="bNP-Fs-TTs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1hO-Vw-aKy"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UGs-8u-I29" secondAttribute="bottom" constant="400" id="4D2-wO-KRV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UGs-8u-I29" secondAttribute="bottom" constant="150" id="4D2-wO-KRV"/>
                             <constraint firstItem="bNP-Fs-TTs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="144" id="5KY-2Q-nOv"/>
+                            <constraint firstItem="2EE-ni-Trc" firstAttribute="top" secondItem="bNP-Fs-TTs" secondAttribute="bottom" constant="80" id="Scb-f4-eCF"/>
+                            <constraint firstItem="2EE-ni-Trc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jb9-S2-9w5"/>
                             <constraint firstItem="UGs-8u-I29" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rZQ-hn-nJq"/>
                         </constraints>
                     </view>
