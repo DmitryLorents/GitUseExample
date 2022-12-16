@@ -18,6 +18,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         myButton.layer.cornerRadius = 15
         myButton.backgroundColor = .green
+        print("Something")
+        labelView.text = "My label"
     }
 
     @IBAction func myButtonAction(_ sender: Any) {
