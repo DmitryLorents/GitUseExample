@@ -13,6 +13,7 @@
 		048F48C9294CD379006AA81F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048F48C7294CD379006AA81F /* Main.storyboard */; };
 		048F48CB294CD37D006AA81F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048F48CA294CD37D006AA81F /* Assets.xcassets */; };
 		048F48CE294CD37D006AA81F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048F48CC294CD37D006AA81F /* LaunchScreen.storyboard */; };
+		048F48D6294CDFE6006AA81F /* MapExperiments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F48D5294CDFE6006AA81F /* MapExperiments.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		048F48CA294CD37D006AA81F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048F48CD294CD37D006AA81F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048F48CF294CD37D006AA81F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048F48D5294CDFE6006AA81F /* MapExperiments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapExperiments.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				048F48C3294CD379006AA81F /* SceneDelegate.swift */,
 				048F48C5294CD379006AA81F /* ViewController.swift */,
 				048F48C7294CD379006AA81F /* Main.storyboard */,
+				048F48D5294CDFE6006AA81F /* MapExperiments.swift */,
 				048F48CA294CD37D006AA81F /* Assets.xcassets */,
 				048F48CC294CD37D006AA81F /* LaunchScreen.storyboard */,
 				048F48CF294CD37D006AA81F /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				048F48C6294CD379006AA81F /* ViewController.swift in Sources */,
+				048F48D6294CDFE6006AA81F /* MapExperiments.swift in Sources */,
 				048F48C2294CD379006AA81F /* AppDelegate.swift in Sources */,
 				048F48C4294CD379006AA81F /* SceneDelegate.swift in Sources */,
 			);
