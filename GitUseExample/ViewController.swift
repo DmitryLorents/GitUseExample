@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func myButtonAction(_ sender: Any) {
-        print("Button has pressed")
+        print("You finished")
     }
     
 }
