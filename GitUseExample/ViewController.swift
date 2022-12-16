@@ -8,12 +8,21 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var labelView: UILabel!
+    
 
+    @IBOutlet weak var myButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        myButton.layer.cornerRadius = 15
+        myButton.backgroundColor = .green
     }
 
-
+    @IBAction func myButtonAction(_ sender: Any) {
+        print("Button has pressed")
+    }
+    
 }
 
