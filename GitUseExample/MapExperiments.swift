@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+func sayText(text: String) {
+    print(text)
+}
